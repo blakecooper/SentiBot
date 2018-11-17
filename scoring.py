@@ -23,7 +23,7 @@ print(len(dm))
 
 # tokenize each line to score, score each word, get average scores, add them to the array
 print("Scoring data...")
-scoringFile = open("output_unscored.txt", "r")
+scoringFile = open("output/output_sentiment_unscored.txt", "r")
 for line in scoringFile:
     wordsInLine = nltk.word_tokenize(line)
     mood = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
