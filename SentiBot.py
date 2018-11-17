@@ -7,8 +7,8 @@ chatbot = ChatBot('SentiBot',
                   output_adapter='chatterbot.output.TerminalAdapter',
                   logic_adapters=[
                       {
-                          "import_path": "chatterbot.logic.BestMatch",
-                          "statement_comparison_function": "chatterbot.comparisons.levenshtein_distance",
+                          "import_path": "chatterbot.logic.Sentiment",
+                          "statement_comparison_function": "chatterbot.comparisons.sentiment_distance",
                           "response_selection_method": "chatterbot.response_selection.get_first_response"
                       }
                     ],
