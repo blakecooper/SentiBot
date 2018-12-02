@@ -11,6 +11,6 @@ Note: the demo requires the Chatterbot library, the gensim Python library, as we
 Instructions:
 
 1. Clone this repo
-2. Install gensim using pip, and unzip the FastText wiki corpus in the 'demo' folder.
+2. Install gensim using pip, and unzip the FastText wiki corpus in the same folder as 'SentiBot-demo.py'.
 3. Unzip the 'Chatterbot.zip' file and copy it into the location of the Chatterbot library, overwriting any duplicate files.
 3. Run the SentiBot-demo.py script to interact with the chatbot
